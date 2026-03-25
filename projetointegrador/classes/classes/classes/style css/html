@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- 📱 Responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Sistema de Pedidos</title>
+
+    <!-- 🎨 CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🏷️ Cabeçalho -->
+    <header>
+        <h1>🛒 Sistema de Pedidos</h1>
+    </header>
+
+    <!-- 📦 Conteúdo principal -->
+    <main>
+        <?php 
+            // exibe o pedido na tela
+            $pedido->exibirResumo(); 
+        ?>
+    </main>
+
+    <!-- 📌 Rodapé -->
+    <footer>
+        <p>© <?php echo date("Y"); ?> - Loja Virtual</p>
+    </footer>
+
+</body>
+</html>

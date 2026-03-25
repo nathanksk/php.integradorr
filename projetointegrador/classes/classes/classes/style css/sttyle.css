@@ -1,0 +1,96 @@
+/* 🔄 Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 🖥️ Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* 🏷️ Título */
+header h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* 📦 Card principal */
+.card {
+    background: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* 🧾 Títulos */
+.card h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* 📄 Textos */
+.card p {
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* 📦 Lista de produtos */
+.card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 6px;
+    color: #333;
+}
+
+/* 💰 Total */
+.card h3:last-of-type {
+    margin-top: 20px;
+    color: #2c7be5;
+}
+
+/* 📱 Responsividade */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .card {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p, .card li {
+        font-size: 14px;
+    }
+}
